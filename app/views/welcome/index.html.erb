@@ -1,0 +1,19 @@
+<p>
+	<!-- funciona como: '/?locale=pt-BR' -->
+	<%= link_to 'Português', root_path(locale: 'pt-BR') %>
+</p>	
+
+<p>
+	<%= link_to 'English', root_path(locale: 'en') %>
+</p>	
+
+<h1><%= t('welcome') %></h1>
+
+<%= t('local_language') %>
+ 
+<p>Data: <%= l(Date.today) %></p>
+
+<p><%= t('hello') %></p> 
+
+<%= render 'menu' %>
+

@@ -1,0 +1,9 @@
+pt-BR:
+  local_language: "Português do Brasil"
+  welcome: "Seja bem-vindo!"
+  hello: "Olá Mundo!"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    confirm: "Tem certeza que deseja apagar?"

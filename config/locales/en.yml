@@ -1,0 +1,9 @@
+en:
+  local_language: "English"
+  welcome: "Welcome!"
+  hello: "Hello world!"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    confirm: "Are you sure?"
