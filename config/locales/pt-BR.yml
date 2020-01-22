@@ -1,6 +1,9 @@
 pt-BR:
-  local_language: "Português do Brasil"
+  current_language: "Português do Brasil"
   welcome: "Seja bem-vindo!"
+  messages:
+    welcome: "Esse é o Crypto Wallet, um app para você cadastrar e acompanhar as suas criptomoedas."
+    menu: "Para iniciar, selecione uma das opções:"
   hello: "Olá Mundo!"
   links:
     edit: "Editar"

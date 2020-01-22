@@ -1,6 +1,9 @@
 en:
-  local_language: "English"
+  current_language: "English"
   welcome: "Welcome!"
+  messages:
+    welcome: "This is the Crypto Wallet, an app for you register your criptocoins."
+    menu: "To start, choose an option:"
   hello: "Hello world!"
   links:
     edit: "Edit"
