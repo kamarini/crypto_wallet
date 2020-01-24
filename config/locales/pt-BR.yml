@@ -4,9 +4,19 @@ pt-BR:
   messages:
     welcome: "Esse é o Crypto Wallet, um app para você cadastrar e acompanhar as suas criptomoedas."
     menu: "Para iniciar, selecione uma das opções:"
+    confirm: "Tem certeza que deseja apagar?"
   hello: "Olá Mundo!"
   links:
-    edit: "Editar"
-    show: "Mostrar"
-    delete: "Apagar"
-    confirm: "Tem certeza que deseja apagar?"
+    edit: Editar
+    show: Mostrar
+    delete: Apagar
+    back: Voltar
+  new:
+    coin: Nova Moeda
+    mining_type: Novo Tipo de Mineração
+  editing:
+    coin: Editando Moeda
+    mining_type: Editando Tipo de Mineração
+  showing:
+    coin: Mostrando Moedas
+    mining_type: Mostrando Tipo de Mineração
