@@ -8,7 +8,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+=begin
 coins = [
           {
             description: "Bitcoin",
@@ -32,3 +32,5 @@ coins = [
 coins.each do |coin|
   Coin.find_or_create_by!(coin)
 end
+
+=end
