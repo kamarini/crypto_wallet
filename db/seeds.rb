@@ -8,20 +8,27 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Coin.create!(
-  description: "Bitcoin",
-  acronym: "BTC",
-  url_image: "http://pngimg.com/uploads/bitcoin/bitcoin_PNG47.png"
-)
 
-Coin.create!(
-  description: "Ethereum",
-  acronym: "ETH",
-  url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/256px-Ethereum_logo_2014.svg.png"
-)
+coins = [
+          {
+            description: "Bitcoin",
+            acronym: "BTC",
+            url_image: "http://pngimg.com/uploads/bitcoin/bitcoin_PNG47.png"
+            },
 
-Coin.create!(
-  description: "Dash",
-  acronym: "DASH",
-  url_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsJnpKnbWwJsEO9E7VxR6cTXgb4xjbzudPvqjVXrMsYuBfOOVK"
-)
+          {
+            description: "Ethereum",
+            acronym: "ETH",
+            url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/256px-Ethereum_logo_2014.svg.png"
+          },
+
+          {
+            description: "Dash",
+            acronym: "DASH",
+            url_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsJnpKnbWwJsEO9E7VxR6cTXgb4xjbzudPvqjVXrMsYuBfOOVK"
+          }
+        ]
+
+coins.each do |coin|
+  Coin.find_or_create_by!(coin)
+end
