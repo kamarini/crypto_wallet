@@ -2,7 +2,7 @@
 
 <h1><%= MiningType.model_name.human(count: @mining_types.count) %></h1>
 
-<table>
+<table class = "table table-hover">
   <thead>
     <tr>
       <th><%= @mining_types.human_attribute_name(:description) %></th>
@@ -27,3 +27,5 @@
 <br>
 
 <%= link_to t('new.mining_type'), new_mining_type_path, class:"btn btn-primary" %>
+<br>
+<br><%= link_to t('links.back'), root_path %>
